@@ -61,8 +61,8 @@
 #define CRYPTONOTE_DISPLAY_DECIMAL_POINT                12
 // COIN - number of smallest units in one coin (currently unused except by tests)
 #define COIN                                            ((uint64_t)1000000000000) // pow(10, 12)
-#define DEFAULT_FEE                                     ((uint64_t)10000000000) // pow(10, 10)
-#define MINIMUM_RELAY_FEE                               ((uint64_t)1000000) // pow(10, 6)
+#define DEFAULT_FEE                                     ((uint64_t)10000000) // pow(10, 10)
+#define MINIMUM_RELAY_FEE                               ((uint64_t)100000) // pow(10, 6)
 
 #define ORPHANED_BLOCKS_MAX_COUNT                       100
 
